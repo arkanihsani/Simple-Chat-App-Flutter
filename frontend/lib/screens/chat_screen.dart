@@ -57,7 +57,10 @@ class _ChatScreenState extends State<ChatScreen> {
               itemCount: _messages.length,
               itemBuilder: (context, index) {
                 final msg = _messages[index];
-                return MessageBubble(message: msg, currentUser: widget.username);
+                return MessageBubble(
+                  message: msg,
+                  currentUser: widget.username,
+                );
               },
             ),
           ),
@@ -87,11 +90,11 @@ class _ChatScreenState extends State<ChatScreen> {
                       icon: const Icon(Icons.send, color: Colors.white),
                       onPressed: _sendMessage,
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
-          )
+          ),
         ],
       ),
     );

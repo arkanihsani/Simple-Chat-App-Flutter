@@ -57,10 +57,11 @@ class _UsernameScreenState extends State<UsernameScreen> {
                   backgroundColor: Colors.blue,
                   padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 12),
                   shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12)),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
                 ),
                 child: const Text("Join Chat"),
-              )
+              ),
             ],
           ),
         ),
