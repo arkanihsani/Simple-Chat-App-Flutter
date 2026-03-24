@@ -42,6 +42,6 @@
     ```bash
     flutter run
     ```
-    This will launch the Gemini Frontend App.
+    This will launch the App.
 
 ---
